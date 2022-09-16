@@ -48,6 +48,11 @@ button {
   margin: 0.5rem;
 }
 
+button[disabled]{
+  opacity: .5;
+  pointer-events: none;
+}
+
 button:focus {
   outline: none;
 }
@@ -69,6 +74,11 @@ button:active {
   background: white;
 }
 
+#health-levels #winner{
+  margin-top: 0;
+  color: #ff0062;
+}
+
 #controls {
   display: flex;
   flex-direction: column;
@@ -83,4 +93,10 @@ button:active {
   border-radius: 10px;
   text-align: center;
   margin: 0 0.5rem;
+}
+
+.game2{
+  padding: 20px;
+  text-align: center;
+  background-color: white;
 }
